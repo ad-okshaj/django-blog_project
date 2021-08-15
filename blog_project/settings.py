@@ -25,7 +25,7 @@ SECRET_KEY = 'dlm_zqk7+@8+&m^@v1!$_fgsmbr+=fq**pz^c*cis1i0*+53)s'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
