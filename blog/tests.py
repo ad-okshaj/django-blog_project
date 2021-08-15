@@ -59,3 +59,7 @@ class BlogTests(TestCase):
             'body':'Updated text',
         })
         self.assertEqual(response.status_code, 302)
+
+    def test_post_delete_view(self):
+        response=self.client.get(reverse('post_delete',args='1'))
+        self.assertEqual(response.status_code,200)
